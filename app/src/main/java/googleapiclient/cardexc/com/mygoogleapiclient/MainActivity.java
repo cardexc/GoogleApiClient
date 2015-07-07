@@ -73,6 +73,7 @@ public class MainActivity extends AppCompatActivity
     @Override
     public void onConnected(Bundle bundle) {
 
+
         mLocationRequest = new LocationRequest();
         mLocationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
         mLocationRequest.setInterval(1000);
